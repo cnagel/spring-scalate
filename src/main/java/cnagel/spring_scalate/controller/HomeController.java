@@ -37,7 +37,6 @@ public class HomeController {
 		ModelAndView mav = new ModelAndView("home/post");
 		mav.addObject("text", text);
 		return mav;
-
 	}
 
 }
